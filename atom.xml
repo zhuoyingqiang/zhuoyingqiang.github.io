@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Pig Zhuo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-10-14T15:55:41.890Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Zhuo YingQiang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>win10上搭建hexo</title>
+    <link href="http://yoursite.com/2018/10/14/init-hexo/"/>
+    <id>http://yoursite.com/2018/10/14/init-hexo/</id>
+    <published>2018-10-14T15:03:01.000Z</published>
+    <updated>2018-10-14T15:55:41.890Z</updated>
+    
+    <content type="html"><![CDATA[<p>win10上搭建hexo，使用github发布<br><a id="more"></a></p><h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>16年就搭建过一次，但是后面换电脑，源文件没有用git管理，后面也没怎么管，今天重新弄了一个，主要还是用到了几篇文章，记录下来以便参考.<br>希望通过这样来总结自己的技能。</p><h1 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h1><ul><li><a href="https://www.jianshu.com/p/1c98aed8d92e" target="_blank" rel="noopener">youmeek大神的教程-使用 Github 空间搭建 Hexo 技术博客–安装篇（基于 IntelliJ IDEA）</a></li><li><a href="https://blog.csdn.net/weixin_39879178/article/details/80319392" target="_blank" rel="noopener">2018.5月使用Github+Hexo搭建自己的博客</a></li><li><a href="https://lfkid.github.io/2016/11/16/Hexo%E6%95%99%E7%A8%8B%EF%BC%9A%EF%BC%88%E4%B8%89%EF%BC%89%E4%BD%BF%E7%94%A8Hexo%E5%86%99%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">hexo的基础用法</a></li><li><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">next主题官网</a></li><li><a href="http://www.alonemonkey.com/2016/05/20/blog-by-jekyll-hexo/" target="_blank" rel="noopener">使用jekyll和hexo搭建免费博客</a></li><li><a href="http://www.arccode.net/" target="_blank" rel="noopener">arccode</a><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><h2 id="安装并且发布博客到git首页"><a href="#安装并且发布博客到git首页" class="headerlink" title="安装并且发布博客到git首页"></a>安装并且发布博客到git首页</h2>这部分主要是根据youmeek大神和第二篇教程交叉到来看，搭建基本没什么难度。<h3 id="需要注意两个地方"><a href="#需要注意两个地方" class="headerlink" title="需要注意两个地方"></a>需要注意两个地方</h3></li></ul><ol><li>两篇教程在设置npm源采用的方式不同，但是其实效果都一样，随便采用一种即可(个人倾向于第二篇那种)。</li><li>设置全局git账号不是必须的，我按照第二篇文档提示输入</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config –-global user.name “55kaikainiubi”  //(“”的账号是刚才Github里面自己注册的账号) </span><br><span class="line">git config –-global user.email “836508484@qq.com” //(&quot;&quot;的邮箱是你自己注册的邮箱</span><br></pre></td></tr></table></figure><p>会被提示错误，直接不用配置，进行ssh的配置就行了。</p><h2 id="将源码提交到git管理"><a href="#将源码提交到git管理" class="headerlink" title="将源码提交到git管理"></a>将源码提交到git管理</h2><p>这部分就是之前没有做的，这样做可以避免物理机问题导致又重新弄的尴尬。</p><h1 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h1><p>写一些自己正在学习的东西</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;win10上搭建hexo，使用github发布&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
