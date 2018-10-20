@@ -1,3 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
+  <entry>
+    <title><![CDATA[hexo发布到gitee pages码云上，同时托管到github和码云]]></title>
+    <url>%2Fhexo_log%2F2018%2F10%2F20%2Fhexo-gitee%2F</url>
+    <content type="text"><![CDATA[前一篇hexo写静态博客发布到github上托管，但是由于总所周知的原因，需要一个国内的。所以想到了用码云提供的类似服务来实现。 起因前一篇hexo写静态博客发布到github上托管，但是由于总所周知的原因，需要一个国内的。所以想到了用码云提供的类似服务来实现。 本来想用网上的教程，类似于同时上传hexo到github和coding的方案 发布到码云之后，页面显示不正确的问题但是中间码云有个坑就是码云hexo生成的html必须发布到你代码项目目录下，也就是你的hexo项目根配置文件中需要配置： 1root:/hexo_log/ #你的码云上的项目名称，而github这个路径设置为 / 也就是根路径就可以了 目前的发布方案==所以我目前采用的方式是维护了两个不同分支源码，分别来推送到不同平台== 平台 平台博客地址 源代码地址 github http://zhuoyingqiang.github.io/ https://github.com/zhuoyingqiang/blog-hexo/tree/master gitee https://zhuoyingqiang0624.gitee.io/hexo_log https://github.com/zhuoyingqiang/blog-hexo/tree/gitee 教程 hexo+码云搭建个人免费博客 Hexo添加字数统计、阅读时长 步骤 由于有了前一篇文档的基础，所以和安装部署到github流程是相似的，只是要主要发布目录的配置 后续 集成留言功能 集成站内搜索以及统计功能 静态图片的问题]]></content>
+      <categories>
+        <category>hexo教程</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>github</tag>
+        <tag>gitee</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[win10上搭建hexo并发布到github上]]></title>
+    <url>%2Fhexo_log%2F2018%2F10%2F14%2Finit-hexo%2F</url>
+    <content type="text"><![CDATA[win10上搭建hexo，使用github发布 起因16年就搭建过一次，但是后面换电脑，源文件没有用git管理，后面也没怎么管，今天重新弄了一个，主要还是用到了几篇文章，记录下来以便参考.希望通过这样来总结自己的技能。 教程 youmeek大神的教程-使用 Github 空间搭建 Hexo 技术博客–安装篇（基于 IntelliJ IDEA） 2018.5月使用Github+Hexo搭建自己的博客 hexo的基础用法 next主题官网 使用jekyll和hexo搭建免费博客 arccode步骤安装并且发布博客到git首页这部分主要是根据youmeek大神和第二篇教程交叉到来看，搭建基本没什么难度。需要注意两个地方 两篇教程在设置npm源采用的方式不同，但是其实效果都一样，随便采用一种即可(个人倾向于第二篇那种)。 设置全局git账号不是必须的，我按照第二篇文档提示输入 12git config –-global user.name “55kaikainiubi” //(“”的账号是刚才Github里面自己注册的账号) git config –-global user.email “836508484@qq.com” //(&quot;&quot;的邮箱是你自己注册的邮箱 会被提示错误，直接不用配置，进行ssh的配置就行了。 将源码提交到git管理这部分就是之前没有做的，这样做可以避免物理机问题导致又重新弄的尴尬。 这里面遇到了问题，就是下载主题的时候是直接git clone下来的，所以你源码里面直接push上你的git不行，需要先把主题中的git目录删除，要不然它会把主题模块提交到原作者git上，这个你肯定是提交不上去的。 后续写一些自己正在学习的东西]]></content>
+      <categories>
+        <category>hexo教程</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>github</tag>
+      </tags>
+  </entry>
 </search>
