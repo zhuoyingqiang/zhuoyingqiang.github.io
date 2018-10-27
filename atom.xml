@@ -3,10 +3,10 @@
   <title>Pig Zhuo</title>
   
   
-  <link href="/hexo_log/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhuoyingqiang0624.gitee.io/hexo_log/"/>
-  <updated>2018-10-27T15:30:16.690Z</updated>
+  <updated>2018-10-27T15:32:04.289Z</updated>
   <id>https://zhuoyingqiang0624.gitee.io/hexo_log/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://zhuoyingqiang0624.gitee.io/hexo_log/2018/10/27/wxxcx/wxappUnpacker/"/>
     <id>https://zhuoyingqiang0624.gitee.io/hexo_log/2018/10/27/wxxcx/wxappUnpacker/</id>
     <published>2018-10-27T15:03:01.000Z</published>
-    <updated>2018-10-27T15:30:16.690Z</updated>
+    <updated>2018-10-27T15:32:04.289Z</updated>
     
     <content type="html"><![CDATA[<p>由于项目需要，需要尽快做一个微信小程序出来，所以想到了抓个已有的来仿。<br><a id="more"></a></p><h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>由于项目需要，需要尽快做一个微信小程序出来，所以想到了抓个已有的来仿。<br>万能的google搜索第一条就给了我答案，完美解决。想补充点图，但是发现还不会写。<br>直接贴出教程，基本无脑操作</p><h1 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h1><ul><li><a href="https://juejin.im/post/5b0e431f51882515497d979f" target="_blank" rel="noopener">只需两步快速获取微信小程序源码</a><h1 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h1>目前由于很多小程序有分包的问题，反编译的插件不能支持。所以，这个看缘分了</li></ul>]]></content>
     
